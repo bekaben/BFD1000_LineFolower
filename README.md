@@ -2,7 +2,7 @@
 
 # Line follower logical circuit using the BFD-1000 5 tracking channels with Obstruction and End of travel
 <p align="center">
-  <img src="./imgs/BF1000_Sensor.jpg" width="512" >
+  <img src="./imgs/BF1000_Sensor.jpg" width="256" style="transform: rotate(90deg);">
 </p>
 
 - [Read the documentation for project](docs/info.md)
