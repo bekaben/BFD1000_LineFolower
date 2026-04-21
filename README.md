@@ -9,13 +9,13 @@
 
 ## Line follower logical circuit 
 <p align="justify">
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital and analog designs manufactured on a real chip.
+This project is designed to be fabricated as part of a Tiny Tapeout educational project that aims to make it easier and cheaper than ever to get your digital and analog designs manufactured on a real chip.
 </p>
 
 
-## Wokwi Projects
+## Wokwi First design
 
-Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.
+Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in your project's URL; it's the big number after `wokwi.com/projects/`.
 
 The GitHub action will automatically fetch the digital netlist from Wokwi and build the ASIC files.
 
