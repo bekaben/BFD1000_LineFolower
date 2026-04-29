@@ -11,7 +11,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 This Solution reads input from the BFD1000 5-channel IR to control the robot motor wheels.
 The sensor has 5 inputs, S1, S2, S3, S4, S5, giving a 1 output for blanc color and 1 for white color. The CLP pin outputs a 1 when a collision occurs, and the near pin outputs a 1 when an obstacle is detected.
-The outputs are the left and right motors' ON/OFF signal, and the direction control. We also add velocity since we are doing PWM directly from the clock pin.
+The outputs are the left and right motors' ON/OFF signal, and the direction control. We also add velocity since we are doing PWM directly from the clock pin.<br>
 +----+----+----+----+----+-----+------++-----+------+-----+------+----+----+---------------------+<br>
 | S1 | S2 | S3 | S4 | S5 | CLP | Near || EnL | DirL | EnR | DirR | VL | VR |     Observation     |<br>
 +----+----+----+----+----+-----+------++-----+------+-----+------+----+----+---------------------+<br>
